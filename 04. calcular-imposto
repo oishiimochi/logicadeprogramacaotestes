@@ -1,0 +1,14 @@
+ algoritmo "Emprestimo"
+var
+   valor, juros, VT, parcelas: real
+inicio
+       Escreva ("Qual o valor do empréstimo? R$ ")
+       Leia (valor)
+       juros <- valor*20/100
+       Escreval ("O valor dos juros é R$", juros)
+       VT <- (valor + juros)
+       Escreval ("O valor total com juros é R$", VT)
+       parcelas <- (VT/10)
+       Escreva ("O valor das parcelas é 10x de R$", parcelas)
+
+fimalgoritmo
