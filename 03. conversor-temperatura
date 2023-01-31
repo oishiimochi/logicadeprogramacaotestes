@@ -1,0 +1,9 @@
+algoritmo "Conversor_Temperatura"
+var
+     F, C: real
+inicio
+      Escreva ("Qual a temperatura em Farenheit? ")
+      Leia (F)
+      C <- (F-32)/1.8
+      Escreva ("A temperatura em Celsius é ", C:2:2)
+fimalgoritmo
