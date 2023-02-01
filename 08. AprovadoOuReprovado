@@ -1,0 +1,27 @@
+algoritmo "AprovadoOuReprovado"
+var
+   N1, N2, media: Real
+inicio
+   Escreval ("--------------------------")
+   Escreval ("ESCOLA DO MACACO DOIDO")
+   Escreval ("--------------------------")
+   Escreval ("")
+   Escreva ("Insira a primeira nota: ")
+   Leia (N1)
+   Escreva ("Insira a segunda nota: ")
+   Leia (N2)
+   Escreval ("")
+   media <- (N1+N2)/2
+   Se (media >=7) entao
+      Escreval ("--------------------------")
+      Escreval ("Media:", media)
+      Escreval ("Aluno Aprovado")
+      Escreval ("--------------------------")
+   Senao
+      Escreval ("--------------------------")
+      Escreval ("Media:", media)
+      Escreval ("Aluno Reprovado")
+      Escreval ("--------------------------")
+   FimSe
+
+fimalgoritmo
