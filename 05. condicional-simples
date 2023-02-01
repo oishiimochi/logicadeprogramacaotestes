@@ -1,0 +1,14 @@
+algoritmo "CalcularIdade"
+var
+    ano_atual, ano_nasc, idade: inteiro
+inicio
+      Escreva ("Em que ano nós estamos? ")
+      Leia (ano_atual)
+      Escreva ("Em que ano você nasceu? ")
+      Leia (ano_nasc)
+      idade <- ano_atual - ano_nasc
+      Escreva ("Sua idade é ", idade, " anos ")
+      Se (idade >= 21) então
+         EscrevaL ("e você já atingiu a maioridade.")
+      FimSe
+fimalgoritmo
