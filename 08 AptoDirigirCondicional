@@ -1,0 +1,35 @@
+algoritmo "AptoDirigir"
+var
+   ano_atual, ano_nasc, idade: Inteiro
+inicio
+   Escreval ("-------------------------")
+   Escreval ("DEPARTAMENTO DE TRANSITO")
+   Escreval ("-------------------------")
+   Escreval ("")
+
+   Escreva ("Em que ano nós estamos? ")
+   Leia (ano_atual)
+   Escreva ("Em que ano você nasceu? ")
+   Leia (ano_nasc)
+   idade <- ano_atual - ano_nasc
+   Se (idade>=18) então
+      Escreval ("")
+      Escreval ("--------------------------")
+      Escreval ("STATUS")
+      Escreval ("--------------------------")
+
+      Escreval ("Você tem ", idade, " anos.")
+      Escreva  ("Você está apto a dirigir!")
+
+   Senao
+      Escreval ("")
+      Escreval ("--------------------------")
+      Escreval ("STATUS")
+      Escreval ("--------------------------")
+
+      Escreval ("Você tem ", idade, " anos.")
+      Escreva  ("Você não está apto a dirigir!")
+   FimSe
+
+
+fimalgoritmo
