@@ -20,5 +20,5 @@ inicio
    OutroCaso
       nsal <- sal + (sal*18/100)
    FimEscolha
-   Escreva ("O novo salário de " ,nome, " será de R$", nsal)
+   Escreva ("O novo salário de " ,nome, " será de R$", nsal:5:2)
 fimalgoritmo
