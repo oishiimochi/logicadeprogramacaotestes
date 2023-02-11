@@ -1,0 +1,45 @@
+algoritmo "AproveitamentoAluno"
+var
+   N1, N2: Real
+   M: Real
+inicio
+   Escreva ("Primeira Nota: ")
+   Leia (N1)
+   Escreva ("Segunda Nota: ")
+   Leia (N2)
+   M <- (N1+N2)/2
+   Escreval ("-----------------")
+   Se (M<=10) e (M>=9) entao
+      EscrevaL ("Média ", M:2:1)
+      EscrevaL ("Aproveitamento A")
+      EscrevaL ("-----------------")
+   senao
+      Se (M<=8.9) e (M>=8) entao
+         EscrevaL ("Média ", M:2:1)
+         EscrevaL ("Aproveitamento B")
+         EscrevaL ("-----------------")
+      senao
+         Se (M<=7.9) e (M>=7) entao
+            EscrevaL ("Média ", M:2:1)
+            EscrevaL ("Aproveitamento C")
+            EscrevaL ("-----------------")
+         senao
+            Se (M<=6.9) e (M>=6) entao
+               EscrevaL ("Média ", M)
+               EscrevaL ("Aproveitamento D")
+               EscrevaL ("-----------------")
+            senao
+               Se (M<=5.9) e (M>=5) entao
+                  EscrevaL ("Média ", M:2:1)
+                  EscrevaL ("Aproveitamento E")
+                  EscrevaL ("-----------------")
+               senao
+                  EscrevaL ("Média ", M:2:1)
+                  EscrevaL ("Aproveitamento F")
+                  EscrevaL ("-----------------")
+               FimSe
+            FimSe
+         FimSe
+      FimSe
+   FimSe
+fimalgoritmo
