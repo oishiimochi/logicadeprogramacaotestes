@@ -1,0 +1,15 @@
+algoritmo "semnome"
+var
+   valor, cont, interv: inteiro
+inicio
+   cont <- 0
+   Escreva ("Quer contar até quanto? ")
+   Leia (valor)
+   Escreva ("Qual será o valor do intervalo? ")
+   Leia (interv)
+   Enquanto (cont <= valor) faca
+      EscrevaL (cont)
+      cont <- cont+interv
+   FimEnquanto
+   EscrevaL ("Terminei de contar!")
+fimalgoritmo
