@@ -1,0 +1,28 @@
+algoritmo "semnome"
+var
+   I, F, cont: inteiro
+inicio
+   EscrevaL ("--------------------")
+   EscrevaL ("CONTADOR INTELIGENTE")
+   EscrevaL ("--------------------")
+   EscrevaL ("")
+   Escreva ("Início: ")
+   Leia (I)
+   Escreva ("Fim: ")
+   Leia (F)
+   EscrevaL ("")
+   EscrevaL ("CONTANDO...")
+   Se (F > I) entao
+      cont <- I
+      Enquanto (cont <= F) faca
+         Escreva (cont, "...")
+         cont <- cont + 1
+      FimEnquanto
+   senao
+      cont <- I
+      Enquanto (cont >= F) faca
+         Escreva (cont, "...")
+         cont <- cont - 1
+      FimEnquanto
+   FimSe
+fimalgoritmo
