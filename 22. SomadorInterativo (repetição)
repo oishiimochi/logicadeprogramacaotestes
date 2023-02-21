@@ -1,0 +1,16 @@
+algoritmo "SomadorInterativo"
+var
+   N, S: inteiro
+   resp: caracter
+inicio
+   S <- 0
+   Repita
+      Escreva ("Digite o valor: ")
+      Leia (N)
+      S <- S + N
+      Escreva ("Você deseja continuar? ")
+      Leia (resp)
+   Ate (resp = "Não")
+   EscrevaL ("")
+   Escreva ("A soma de todos os valores digitados é ", S)
+fimalgoritmo
