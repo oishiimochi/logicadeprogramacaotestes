@@ -1,0 +1,14 @@
+algoritmo "fatorial"
+var
+   N, cont, F: inteiro
+inicio
+   Escreva ("Digite um numero: ")
+   Leia (N)
+   cont <- N
+   F <- 1
+   Repita
+      F <- F * cont
+      cont <- cont - 1
+   Ate (cont < 1)
+   Escreva ("O valor do fatorial de ", N, " é igual a", F)
+fimalgoritmo
