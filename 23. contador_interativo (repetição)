@@ -1,0 +1,10 @@
+algoritmo "Contar1Ate10"
+var
+   cont: inteiro
+inicio
+   cont  <- 1
+   Repita
+      EscrevaL (cont)
+      cont <- cont + 1
+   Ate (cont > 10)
+fimalgoritmo
