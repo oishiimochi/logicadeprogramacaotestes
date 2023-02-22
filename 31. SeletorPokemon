@@ -1,0 +1,137 @@
+algoritmo "SeletorPokemon"
+var
+   TipoPokemon: caracter
+   regiao: inteiro
+inicio
+   EscrevaL ("Escolha um tipo")
+   EscrevaL("---------------------")
+   EscrevaL ("[F] para Tipo Fogo")
+   Escreval ("[A] para Tipo Água")
+   EscrevaL ("[P] para Tipo Planta")
+   EscrevaL("---------------------")
+   Leia (TipoPokemon)
+   LimpaTela
+   EscrevaL ("")
+   EscrevaL ("Escolha uma região")
+   EscrevaL("---------------------")
+   EscrevaL ("[1] para Kanto")
+   Escreval ("[2] para Johto")
+   EscrevaL ("[3] para Hoenn")
+   EscrevaL ("[4] para Sinnoh")
+   EscrevaL ("[5] para Unova")
+   EscrevaL ("[6] para Kalos")
+   EscrevaL ("[7] para Alola")
+   EscrevaL ("[8] para Galar")
+   EscrevaL ("[9] para Paldea")
+   EscrevaL("---------------------")
+   Leia (regiao)
+   LimpaTela
+   Se (TipoPokemon = "F") e (regiao = 1) entao
+      Escreval ("Você recebeu um Charmander!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 1) entao
+      EscrevaL ("Você recebeu um Squirtle!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 1) entao
+      EscrevaL ("Você recebeu um Bulbassaur!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 2) entao
+      EscrevaL ("Você recebeu um Cyndaquil!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 2) entao
+      EscrevaL ("Você recebeu um Totodile!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 2) entao
+      EscrevaL ("Você recebeu um Chikorita!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 3) entao
+      EscrevaL ("Você recebeu um Torchic!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 3) entao
+      EscrevaL ("Você recebeu um Mudkip!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 3) entao
+      EscrevaL ("Você recebeu um Treecko!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 4) entao
+      EscrevaL ("Você recebeu um Chimchar!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 4) entao
+      EscrevaL ("Você recebeu um Piplup!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 4) entao
+      EscrevaL ("Você recebeu um Turtwig!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 5) entao
+      EscrevaL ("Você recebeu um Tepig!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 5) entao
+      EscrevaL ("Você recebeu um Oshawott!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 5) entao
+      EscrevaL ("Você recebeu um Snivy!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 6) entao
+      EscrevaL ("Você recebeu um Fennekin!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 6) entao
+      EscrevaL ("Você recebeu um Froakie!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 6) entao
+      EscrevaL ("Você recebeu um Chespin!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 7) entao
+      EscrevaL ("Você recebeu um Litten!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 7) entao
+      EscrevaL ("Você recebeu um Popplio!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 7) entao
+      EscrevaL ("Você recebeu um Rowlett!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 8) entao
+      EscrevaL ("Você recebeu um Scorbunny!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 8) entao
+      EscrevaL ("Você recebeu um Sobble!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 8) entao
+      EscrevaL ("Você recebeu um Grookey!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "F") e (regiao = 9) entao
+      EscrevaL ("Você recebeu um Fuecoco!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "A") e (regiao = 9) entao
+      EscrevaL ("Você recebeu um Quaxly!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+   Se (TipoPokemon = "P") e (regiao = 9) entao
+      EscrevaL ("Você recebeu um Sprigatito!")
+      EscrevaL ("Boa sorte, Treinador!")
+   FimSe
+fimalgoritmo
