@@ -1,0 +1,8 @@
+algoritmo "ContardorDe1a10Impares"
+var
+   cont: inteiro
+inicio
+   para cont <- 1 ate 10 passo 2 faca
+      EscrevaL (cont)
+   FimPara
+fimalgoritmo
