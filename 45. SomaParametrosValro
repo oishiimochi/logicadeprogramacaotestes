@@ -1,4 +1,4 @@
-algoritmo "SomaParametrosReferencia"
+algoritmo "SomaParametrosValor"
 var
    X, Y: inteiro
 Procedimento Soma (A, B: inteiro)
